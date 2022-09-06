@@ -1,20 +1,4 @@
-# 快给你的女朋友做一个微信公众号消息推送吧
 
-> 技术栈 nodejs + Github Actions
-
-预览
-
-![](https://raw.githubusercontent.com/hanghang0321/images/main/20220823124953.png)
-
-第一步 登录微信公众号测试号测试平台 https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
-
-![](https://raw.githubusercontent.com/hanghang0321/images/main/20220823125250.png)
-
-第二步 新增消息模板
-
-![](https://raw.githubusercontent.com/hanghang0321/images/main/20220823124613.png)
-
-```
 {{date.DATA}} 
 城市：{{city.DATA}} 
 天气：{{weather.DATA}} 
